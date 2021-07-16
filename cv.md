@@ -13,7 +13,7 @@ I'm 25 years old. I develop web-services, but now I'd like to become frontend-de
 
 ## Skills
 
-- c#, ASP.NET, WinForm;
+- ASP.NET, WinForm (c#);
 - mongoDB (superficial);
 - MySql (superficial);
 - git.
