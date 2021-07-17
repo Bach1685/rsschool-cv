@@ -1,0 +1,127 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+body {
+  background: url(/IMG_0468.JPG) 0 0/100% auto no-repeat;
+}
+.content {
+  background: whitesmoke;
+  margin: 30px auto;
+  width: 800px;
+  height: 700px;
+  border-radius: 18%;
+}
+.header {
+  height: 300px;
+  /* background-color: brown; */
+  display: flex;
+}
+.photo {
+  /* background-color: rgb(168, 102, 255); */
+  height: 100%;
+  width: 250px;
+}
+.photo h2 {
+  margin: 11px 30px 12px;
+  font-size: 25px;
+  font-family: -webkit-pictograph;
+}
+
+.photo img {
+  height: 260px;
+  width: 250px;
+  border-radius: 50%;
+}
+
+.aboutMe {
+  padding: 80px 110px 0px 60px;
+}
+
+.aboutMe p {
+  padding: 24px 0px 0;
+  font-size: 25px;
+  font-family: -webkit-pictograph;
+}
+
+.aboutMe h2 {
+  font-family: -webkit-pictograph;
+  font-size: 30px;
+}
+
+.mainText {
+}
