@@ -60,9 +60,7 @@ a:visited {
 a:hover {
   text-decoration: none;
 }
-ul li {
-  list-style: none;
-}
+
 img {
   vertical-align: top;
 }
@@ -82,9 +80,12 @@ body {
 .content {
   background: whitesmoke;
   margin: 30px auto;
-  width: 800px;
-  height: 700px;
+  width: 750px;
+  height: 850px;
   border-radius: 18%;
+  box-shadow: 0 0 10px rgb(0 0 0 / 50%);
+  /* box-shadow: 10px 10px 10px rgb(0 0 0 / 50%); */
+
 }
 .header {
   height: 300px;
@@ -97,9 +98,11 @@ body {
   width: 250px;
 }
 .photo h2 {
-  margin: 11px 30px 12px;
-  font-size: 25px;
+  margin: 10px 0px 4px 15px;
+  width: 500px;
   font-family: -webkit-pictograph;
+  font-size: 35px;
+  color: rgb(163, 153, 14);
 }
 
 .photo img {
@@ -109,19 +112,55 @@ body {
 }
 
 .aboutMe {
-  padding: 80px 110px 0px 60px;
+  padding: 40px 80px 0px 60px;
 }
 
 .aboutMe p {
-  padding: 24px 0px 0;
-  font-size: 25px;
   font-family: -webkit-pictograph;
+  text-indent: 30px;
 }
 
-.aboutMe h2 {
+.title {
   font-family: -webkit-pictograph;
   font-size: 30px;
+  padding: 0 10px 30px 0px;
 }
 
-.mainText {
+.text {
+  font-size: 25px;
+  padding: 0 30px 0 0px;
+}
+
+ul li {
+  list-style: inside;
+}
+
+.main {
+  padding: 0px 0px 0px 60px;
+}
+
+.skillsAndExperience {
+  display: flex;
+  margin: 50px 0px 50px 0px;
+}
+
+.skills {
+  display: block;
+}
+
+.experience {
+  display: block;
+}
+
+.educationAndContacts {
+  display: flex;
+}
+
+.education {
+  display: block;
+  width: 320px;
+}
+
+.contacts {
+  display: block;
 }
