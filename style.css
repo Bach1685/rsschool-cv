@@ -1,0 +1,201 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+body {
+  background: url(/IMG_0468.JPG) 0 0/100% auto no-repeat;
+}
+.content {
+  background: whitesmoke;
+  margin: 30px auto;
+  width: 720px;
+  height: 850px;
+  border-radius: 18%;
+  box-shadow: 0 0 10px rgb(0 0 0 / 50%);
+  /* box-shadow: 10px 10px 10px rgb(0 0 0 / 50%); */
+}
+.header {
+  height: 300px;
+  /* background-color: brown; */
+  display: flex;
+}
+.photo {
+  /* background-color: rgb(168, 102, 255); */
+  height: 100%;
+  width: 250px;
+}
+.photo p {
+  margin: -25px 0px 0px 30px;
+  width: 200px;
+  font-family: sans-serif;
+  font-size: 50px;
+  color: rgb(108 92 110);
+  line-height: 50px;
+}
+
+.photo img {
+  height: 260px;
+  width: 250px;
+  border-radius: 50%;
+}
+
+.about_me {
+  padding: 55px 40px 0px 35px;
+}
+
+.about_me p {
+  font-family: -webkit-pictograph;
+  text-indent: 30px;
+}
+
+.title {
+  font-family: -webkit-pictograph;
+  font-size: 30px;
+  padding: 0 10px 30px 0px;
+}
+
+.text {
+  font-family: -webkit-pictograph;
+  font-size: 25px;
+  padding: 0 30px 0 0px;
+  line-height: 27px;
+}
+
+ul li {
+  list-style: inside;
+}
+
+.main {
+  padding: 0px 0px 0px 60px;
+}
+
+.skills_and_experience {
+  display: flex;
+  margin: 45px 0px 50px -15px;
+}
+
+.skills {
+  display: block;
+}
+
+.experience {
+  display: block;
+}
+
+.education_and_contacts {
+  display: flex;
+  margin: 45px 0px 50px -15px;
+}
+
+.education {
+  display: block;
+  width: 320px;
+}
+
+.contacts {
+  display: block;
+}
+
+.footer_block {
+  /* background-color: bisque; */
+  width: 100%;
+  height: 130px;
+  margin: -150px auto;
+}
+.github_and_rsschool {
+  display: flex;
+  width: 500px;
+  margin: 20px auto;
+}
+
+.github {
+  font-family: -webkit-pictograph;
+  display: block;
+  margin: 30px auto;
+  font-size: 15px;
+}
+
+.rsschool {
+  display: block;
+  width: 150px;
+  height: 25px;
+  margin: 20px auto;
+}
+
+.year {
+  font-family: -webkit-pictograph;
+  font-size: 15px;
+  margin: 0px 0px 15px 48%;
+}
