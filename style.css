@@ -41,13 +41,14 @@ h2 {
 }
 
 body {
-  background: url(./image/IMG_0468.JPG) 0 0/100% auto no-repeat;
+  background-image: url(./image/IMG_0468.JPG);
+  background-size: cover;
 }
 
 .content {
   background: whitesmoke;
   margin: 30px auto;
-  width: 720px;
+  max-width: 720px;
   height: 850px;
   border-radius: 18%;
   box-shadow: 0 0 10px rgb(0 0 0 / 50%);
