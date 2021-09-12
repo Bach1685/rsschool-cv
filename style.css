@@ -49,7 +49,6 @@ body {
   background: whitesmoke;
   margin: 30px auto;
   max-width: 720px;
-  /* height: 850px; */
   border-radius: 18%;
   box-shadow: 0 0 10px rgb(0 0 0 / 50%);
 
@@ -57,16 +56,19 @@ body {
   flex-direction: column;
   align-items: center;
 }
+
 header {
   display: flex;
   flex-wrap: wrap;
 }
+
 .photo {
-  height: 100%;
-  width: 250px;
+  /* height: 100%; */
+  max-width: 250px;
 }
+
 .photo h1 {
-  margin: -25px 0px 0px 30px;
+  /* margin: -25px 0px 0px 30px; */
   width: 200px;
   font-family: sans-serif;
   font-size: 50px;
@@ -78,10 +80,13 @@ header {
   height: 260px;
   width: 250px;
   border-radius: 50%;
+  position: relative;
+  top: 0px;
+  left: -30px;
 }
 
 .about_me {
-  width: 460px;
+  max-width: 400px;
   padding: 55px 0px 0px 10px;
 }
 
@@ -99,7 +104,6 @@ header {
 .text {
   font-family: -webkit-pictograph;
   font-size: 25px;
-  padding: 0 30px 0 0px;
   line-height: 27px;
 }
 
@@ -108,67 +112,62 @@ ul li {
 }
 
 main {
-  padding: 0px 0px 0px 60px;
+  /* padding: 0px 0px 0px 60px; */
 }
 
 .skills_and_experience {
   display: flex;
   flex-wrap: wrap;
-  margin: 45px 0px 50px -15px;
+  justify-content: space-between;
+  margin: 35px 0px;
+
 }
 
 .skills {
-  display: block;
+  max-width: 400px;
 }
 
 .experience {
-  display: block;
+  max-width: 300px;
 }
 
 .education_and_contacts {
   display: flex;
   flex-wrap: wrap;
-  margin: 45px 0px 50px -15px;
 }
 
 .education {
-  display: block;
-  width: 320px;
+  max-width: 400px;
 }
 
 .contacts {
-  display: block;
+  max-width: 300px;
 }
 
 .footer_block {
-  /* background-color: bisque; */
-  width: 100%;
+  width: 400px;
   height: 130px;
-  /* margin: -150px auto; */
 }
+
 .github_and_rsschool {
   display: flex;
   flex-wrap: wrap;
-  /* width: 500px; */
-  margin: 20px auto;
+  justify-content: space-between;
 }
 
 .github {
-  font-family: -webkit-pictograph;
+  width: 50px;
+  height: 8px;
   display: block;
-  margin: 30px auto;
-  font-size: 15px;
 }
 
 .rsschool {
-  display: block;
   width: 150px;
-  height: 25px;
-  margin: 20px auto;
+  height: 100px;
+  display: block;
 }
 
 .year {
   font-family: -webkit-pictograph;
   font-size: 15px;
-  margin: 0px 0px 15px 48%;
 }
