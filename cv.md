@@ -9,14 +9,12 @@ Alexey Matyukhin
 
 ## About me
 
-I'm 25 years old. I develop web-services, but now I'd like to become frontend-developer. I want and ready to learn new it-technologies.
+I'm 25 years old. I had developed web-services, but now I'd like to become frontend-developer. I want and ready to learn new it-technologies.
 
 ## Skills
-
+- git;
 - ASP.NET, WinForm (c#);
-- mongoDB (superficial);
-- MySql (superficial);
-- git.
+- html, css, js;
 
 ## Code examples
 
@@ -29,7 +27,11 @@ function century(year) {
 
 ## Work experience
 
-Backend-developer (3 years).
+Backend-developer (3,5 years).
+
+## English
+
+A1-Elementary
 
 ## Education
 
