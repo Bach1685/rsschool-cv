@@ -29,10 +29,10 @@ function century(year) {
 
 Backend-developer (3,5 years).
 
-## English
-
-A1-Elementary
-
 ## Education
 
 Applied mechanics (master), Bryansk State Technical University (BSTU).
+
+## English
+
+A1-Elementary
